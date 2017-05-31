@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <!-- item android:id="@+id/action_share"
+          android:title="@string/share" android:icon="@drawable/ic_action_share"
+          android:showAsAction="always|withText"
+          android:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+    <item 	android:id="@+id/action_overflow" 	android:showAsAction="always|collapseActionView"
+        	android:icon="@drawable/ic_action_overflow" 	android:title="@string/app_name">        
+        <menu>           
+           <item android:id="@+id/item1" android:showAsAction="always" 	android:icon="@drawable/android_logo1" android:title="@string/app_name"/>
+	       <item android:id="@+id/item2" android:showAsAction="always" 	android:icon="@drawable/android_logo2" android:title="@string/app_name"/>
+	   </menu>
+	</item-->
+    <item android:id="@+id/actionSearch" 
+        android:title="@string/menu_search" 
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_action_search"
+        android:onClick="onSearch"
+        ></item>
+   <item android:id="@+id/actionConfig" 
+        android:title="@string/title_activity_configuration" 
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_menu_preference"
+      
+        />
+    <item android:id="@+id/actionOverflow" 
+        android:title="@string/app_name" 
+        android:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_action_overflow">
+        <menu>
+            <item android:id="@+id/actionCalc" 
+                android:title="@string/title_activity_calcul" 
+                android:showAsAction="always|withText"
+                 android:icon="@drawable/ic_menu_calcul"/>
+            <item android:id="@+id/actionListView" 
+                android:title="@string/title_activity_list" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_list"/>
+             <item android:id="@+id/actionListView2" 
+                android:title="@string/title_activity_list_view2" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_list"/>
+             <item android:id="@+id/actionListViewCustom" 
+                android:title="@string/title_activity_custom_adapter" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_list"/>
+             
+             <item android:id="@+id/actionFragmentFixe" 
+                android:title="@string/title_activity_fragment1" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_fragment"/>
+             <item android:id="@+id/actionFragmentDynamic" 
+                android:title="@string/title_activity_dynamic_fragment" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_fragment"/>
+             
+              <item android:id="@+id/actionViewPager" 
+                android:title="@string/title_activity_view_pager" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_action_photo"/>
+              
+              <item android:id="@+id/actionWebView" 
+                android:title="@string/title_activity_web_view" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_browser"/>
+              
+               <item android:id="@+id/actionDatabase" 
+                android:title="@string/title_activity_data_persist" 
+                android:showAsAction="always|withText"
+                android:icon="@drawable/ic_menu_database"/>
+        </menu>
+    </item> 
+	  
+</menu>

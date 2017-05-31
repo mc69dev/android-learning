@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/antiquewhite" />
+    
+    <LinearLayout
+        android:id="@+id/loginForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/whitesmoke"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edtLogin"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_hint">
+
+            <requestFocus  /> 
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/btn_login_texte" />
+    </LinearLayout>
+</LinearLayout>

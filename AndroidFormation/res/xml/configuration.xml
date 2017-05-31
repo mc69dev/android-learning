@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:key="wifi" >
+    
+
+   <PreferenceCategory android:title="WIFI &amp; Réseaux">
+        <SwitchPreference android:title="WIFI" android:key="swc_key" android:summary="Activer Wifi.."/>
+    </PreferenceCategory><PreferenceCategory android:title="Informations..">
+        <CheckBoxPreference android:title="Automatique" android:summary="Connection auto. réseau préféré!" android:key="chb_key" />
+        <EditTextPreference android:title="Réseau préféré" android:summary="Saisir identifiant réseau.." android:key="edt_key" />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Formation</string>
+    <string name="hello_world">Android c\'est génial!!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="noir">#000000</color>
+    <color name="blanc">#ffffff</color>
+
+    <string name="title_activity_calcul">Calcul..</string>
+    <string name="app_sub_title">Android Formation..</string>
+    <string name="welcome_texte">Welcome..</string>
+    <string name="menu_search">Search..</string>
+    <string name="show_text">Show</string>
+    <string name="hide_text">Hide</string>
+    <string name="action_search">search..</string>
+    <string name="action_compose">compose..</string>
+    <string name="action_locate">locate</string>
+    <string name="action_call">call</string>
+    <string name="search_hint">search..</string>
+    <string name="login_hint">Login..</string>
+    <string name="password_hint">Password..</string>
+    <string name="btn_login_texte">Se Connecter</string>
+    <string name="btn_logout_texte">Se Déconnecter</string>
+    <string name="btn_nothing_texte">Ne rien faire!</string>
+    <string name="btn_texte">Cliquez moi!</string>
+    <string name="activity_label">Autre Activité</string>
+    <string name="calc_activity_label">Calcul..</string>
+    <string name="layout_gravity_right">(composant)aligné à droite</string>
+    <string name="gravity_right">(contenu)aligné à droite</string>
+    <string name="calc_activity_menu">Calcul (Activité)</string>
+    <string name="test1_activity_menu">Tests Layout</string>
+    <string name="test2_activity_menu">Autre Activité</string>
+    <string name="title_activity_others">Activité - Tests</string>
+    <string name="listview_activity_menu">Listes (ListView)</string>
+    <string name="title_activity_suite">Menu Suite..</string>
+    <string name="title_activity_web">WebView Activity</string>
+    <string name="title_activity_web_2">WebView : Choix Site..</string>
+    <string name="title_activity_data">Persistence (Data)</string>
+    <string name="share">share..</string>
+    <string name="zero">0</string>
+    <string name="un">1</string>
+    <string name="deux">2</string>
+    <string name="trois">3</string>
+    <string name="quatre">4</string>
+    <string name="cinq">5</string>
+    <string name="six">6</string>
+    <string name="sept">7</string>
+    <string name="huit">8</string>
+    <string name="neuf">9</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="prdt">*</string>
+    <string name="div">/</string>
+    <string name="init">C</string>
+    <string name="point">.</string>
+    <string name="egal">=</string>
+    <string name="multi">*</string>
+
+    <!-- Tableaux -->
+    <string-array name="jours">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+    <string-array name="sites_web">
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>Afip Formations</item>
+        <item>Page Tests</item>
+    </string-array>
+    <string-array name="stockage_types">
+        <item>Stockage Interne</item>
+        <item>Stockage Externe</item>
+        <item>Stockage Externe Partagé</item>
+    </string-array>
+
+    <plurals name="nb_tutos">
+        <item quantity="zero">Aucun Tuto. n\'est disponible</item>
+        <item quantity="one">Un seul</item>
+        <item quantity="two">Deux</item>
+        <item quantity="few">Petit Nombre</item>
+        <item quantity="many">Grand Nombre</item>
+        <item quantity="other">Autre cas..</item>
+    </plurals>
+
+    <string name="reception_message">%1$s! Vous avez reçu %2$d nouveaux messages.</string>
+    <string name="app_author">MC</string>
+    <string name="app_author_site">www.mc.info</string>
+    <string name="title_activity_fragment1">Fragment Fixe</string>
+    <string name="title_activity_fragment2">Fragment Dynamique</string>
+    <string name="title_activity_fragment3">ListFragment</string>
+    <string name="title_activity_slide">Slide (ViewPager)</string>
+    <string name="no_content_text">Aucun élément à afficher!</string>
+
+    <!--
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    -->
+
+    <string name="title_activity_main_test">TestMainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_data_persist">Data Persist..</string>
+    <string name="title_activity_storage_directories">Répertoires Stockage</string>
+    <string name="title_activity_welcome">Welcome..</string>
+    <string name="title_activity_welcome_result">Welcome Result..</string>
+    <string name="title_activity_list">List 1..</string>
+    <string name="title_activity_list_view2">ListView 2</string>
+    <string name="title_activity_custom_adapter">CustomAdapter</string>
+    <string name="title_activity_simple_fragment">Simple Fragment</string>
+    <string name="title_activity_dynamic_fragment">Dynamic Fragments..</string>
+    <string name="title_activity_view_pager">View Pager</string>
+    <string name="title_activity_configuration">Configuration - Prefs..</string>
+    <string name="title_activity_web_view">WebView..</string>
+    <string name="title_activity_my_sqlite">MySQLite..</string>
+
+</resources>
